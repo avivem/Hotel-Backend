@@ -1,0 +1,32 @@
+{
+  "name": "sequelize-practice",
+  "version": "1.0.0",
+  "description": "Practice project to demonstrate backend stack using Sequelize, nodejs, express, and postgres",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon ./bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sequelize",
+    "nodejs",
+    "js",
+    "javascript",
+    "postgres",
+    "SQL",
+    "express.js"
+  ],
+  "author": "Aviv Elazar-Mittelman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.3.2",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
